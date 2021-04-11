@@ -109,7 +109,7 @@ section {
 
 .section-5 {
     height: 45vh;
-    background-image: linear-gradient(rgba(2, 17, 100, 0.7),rgba(2, 17, 20, 0.5)),url(images/fondo.jpg);
+    background-image: linear-gradient(rgba(2, 17, 100, 0.7),rgba(2, 17, 20, 0.5));
 }
 
 .section-5 h2{
