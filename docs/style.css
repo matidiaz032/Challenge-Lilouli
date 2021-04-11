@@ -10,6 +10,15 @@ section {
     background-color: var(--stark);
 }
 
+.navbar {
+    position: fixed;
+    top: 0;
+}
+
+.navbar a img {
+    width: 80%;
+}
+
 .bg-color {
     background-color: var(--black);
 }
@@ -32,6 +41,7 @@ section {
     background-position-x: -100px;
     height: 60vh;
     text-align: center;
+    margin-top: 15%;
 }
 
 .contenedor-inicio p {
@@ -57,8 +67,9 @@ section {
     padding-bottom: 0.8rem;
 }
 
-.contenedor-inicio .color-boton:hover {
+.color-boton:hover {
     background-color: var(--violeta);
+    color: var(--stark);
 }
 
 .logo img {
@@ -123,7 +134,7 @@ section {
     color: var(--stark);
 }
 
-.section-6 h2, .section-7 h2{
+.section-6 h2, .section-7 h2, .section-9 h4{
     color: var(--black);
     font-family: 'Ubuntu', sans-serif;
     font-weight: 600;
@@ -151,8 +162,12 @@ section {
     font-size: 2rem;
 }
 
-.section-8 p {
-    font-size: 1.25rem;
+.section-8 p, .s-8 p, .section-10 ul li {
+    font-size: 1.15rem;
+}
+
+.que, .como, .trabajar-juntos {
+    width: 100%;
 }
 
 .section-8 p b {
@@ -165,7 +180,7 @@ section {
     color: var(--black);
 }
 
-.section-9 .titles {
+.section-9 .titles, .section-10 .titles {
     color: var(--violeta);
     font-size: 2rem;
 }
@@ -182,8 +197,57 @@ section {
     font-weight: bold;
 }
 
-.section-9 p {
+.section-9 span {
     color: var(--stark);
+}
+
+.section-9 h4 {
+    color: var(--violeta);
+}
+
+.section-10 {
+    background-color: whitesmoke;
+}
+
+.section-11 {
+    background: linear-gradient(rgba(2, 17, 100, 0.7),var(--stark));
+    background: -prefix-linear-gradient(white,blue);
+}
+
+.section-11 h3 {
+    color: var(--stark);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+.section-11 form .form-control, .section-11 textarea {
+    background-color: var(--stark);
+    border: 1px solid var(--stark);
+    border-radius: 1em;
+}
+
+.section-11 a {
+    text-decoration: none;
+    color: var(--fucsia);
+    font-weight: 600;
+}
+
+footer {
+    background-color: var(--black);
+    color: var(--stark);
+}
+
+footer .contenedor-logo-footer img {
+    width: 70%;
+}
+
+footer a {
+    color: var(--stark);
+    text-decoration: none;
+}
+
+footer .linea-separador {
+    border: 1px solid var(--stark);
 }
 
 /* media query para mobile */
@@ -192,4 +256,20 @@ section {
         padding-left: 25px;
         padding-right: 25px;
     } 
+}
+
+@media (max-width: 375px) {
+    .contenedor-inicio h1 {
+        font-size: 1.6rem;
+    }
+
+    .color-boton {
+        padding: 3px 6px;
+    }
+}
+
+@media (min-width: 768px) {
+    .contenedor-inicio {
+        margin-top: 6rem;
+    }
 }
