@@ -83,7 +83,7 @@ section {
     color: var(--black);
 }
 
-.section-3 {
+.section-3, .section-8 {
     background: linear-gradient(rgba(2, 17, 100, 0.7),var(--stark));
     background: -prefix-linear-gradient(white,blue);
 }
@@ -93,17 +93,97 @@ section {
     font-weight: 600;
 }
 
-.section-3 p {
+.section-3 p, .section-7 p {
     font-size: 1.15rem;
 }
 
 .section-4 h2 {
-    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
     color: var(--black);
 }
 
 .section-4 h2 span {
     color: var(--violeta);
+}
+
+.section-5 {
+    height: 45vh;
+    background-image: linear-gradient(rgba(2, 17, 100, 0.7),rgba(2, 17, 20, 0.5)),url(images/fondo.jpg);
+}
+
+.section-5 h2{
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    color: var(--stark);
+}
+
+.section-5 h5 {
+    color: var(--stark);
+}
+
+.section-6 h2, .section-7 h2{
+    color: var(--black);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+.section-7 {
+    background-color: whitesmoke;
+}
+
+.section-7 .contenedor-img img{ 
+    width: 100%;
+}
+
+.section-8 .sub {
+    color: var(--stark);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.section-8 h2 {
+    color: var(--stark);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.section-8 p {
+    font-size: 1.25rem;
+}
+
+.section-8 p b {
+    color: var(--stark);
+}
+
+.titles {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.section-9 .titles {
+    color: var(--violeta);
+    font-size: 2rem;
+}
+
+.section-9 .contenedor-boxes {
+    border: 1px solid var(--violeta);
+    background-color: var(--violeta);
+    border-radius: 2em;
+}
+
+.section-9 h2 {
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--stark);
+    font-weight: bold;
+}
+
+.section-9 p {
+    color: var(--stark);
 }
 
 /* media query para mobile */
